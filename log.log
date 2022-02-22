@@ -1,0 +1,124 @@
+2022-02-22 10:14:34,685 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-22 10:15:03,694 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:15:03] "GET / HTTP/1.1" 200 -
+2022-02-22 10:15:04,405 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:15:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-22 10:15:19,609 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:15:19] "[33mGET /fristdown/1024 HTTP/1.1[0m" 404 -
+2022-02-22 10:15:26,962 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:15:26] "[33mPOST /fristdown/1024 HTTP/1.1[0m" 404 -
+2022-02-22 10:15:29,267 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:15:29] "[33mPOST /fristdown/1024 HTTP/1.1[0m" 404 -
+2022-02-22 10:15:49,329 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:15:49] "[31m[1mPOST /hello HTTP/1.1[0m" 405 -
+2022-02-22 10:15:49,969 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:15:49] "[31m[1mPOST /hello HTTP/1.1[0m" 405 -
+2022-02-22 10:15:57,853 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:15:57] "GET / HTTP/1.1" 200 -
+2022-02-22 10:16:02,208 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:16:02] "GET /hello HTTP/1.1" 200 -
+2022-02-22 10:17:53,630 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-22 10:17:56,962 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:17:56] "POST /hello/1 HTTP/1.1" 200 -
+2022-02-22 10:17:57,745 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:17:57] "POST /hello/1 HTTP/1.1" 200 -
+2022-02-22 10:17:58,281 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:17:58] "POST /hello/1 HTTP/1.1" 200 -
+2022-02-22 10:17:58,924 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:17:58] "POST /hello/1 HTTP/1.1" 200 -
+2022-02-22 10:18:00,185 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:18:00] "POST /hello/2 HTTP/1.1" 200 -
+2022-02-22 10:18:26,610 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-22 10:18:44,595 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:18:44] "POST /firstdownload/1024 HTTP/1.1" 200 -
+2022-02-22 10:18:45,423 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:18:45] "POST /firstdownload/1024 HTTP/1.1" 200 -
+2022-02-22 10:19:03,562 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-22 10:19:05,239 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:19:05] "POST /firstdownload/1024 HTTP/1.1" 200 -
+2022-02-22 10:19:05,930 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:19:05] "POST /firstdownload/1024 HTTP/1.1" 200 -
+2022-02-22 10:19:06,535 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:19:06] "POST /firstdownload/1024 HTTP/1.1" 200 -
+2022-02-22 10:19:22,541 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-22 10:19:24,936 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:19:24] "POST /firstdownload/1024 HTTP/1.1" 200 -
+2022-02-22 10:19:25,929 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:19:25] "POST /firstdownload/1024 HTTP/1.1" 200 -
+2022-02-22 10:19:26,515 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:19:26] "POST /firstdownload/1024 HTTP/1.1" 200 -
+2022-02-22 10:19:30,088 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-22 10:19:31,799 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:19:31] "POST /firstdownload/1024 HTTP/1.1" 200 -
+2022-02-22 10:19:51,066 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-22 10:19:51,336 - E:\Research2\Anaconda3\lib\site-packages\flask\app.py[line:1761] - ERROR: Exception on /firstdownload/1024 [POST]
+Traceback (most recent call last):
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:\WORK\6study\git_study\learngit\http_svr.py", line 79, in firstdownload
+    if size == '1024':
+NameError: name 'size' is not defined
+2022-02-22 10:19:51,347 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:19:51] "[35m[1mPOST /firstdownload/1024 HTTP/1.1[0m" 500 -
+2022-02-22 10:19:52,144 - E:\Research2\Anaconda3\lib\site-packages\flask\app.py[line:1761] - ERROR: Exception on /firstdownload/1024 [POST]
+Traceback (most recent call last):
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:\WORK\6study\git_study\learngit\http_svr.py", line 79, in firstdownload
+    if size == '1024':
+NameError: name 'size' is not defined
+2022-02-22 10:19:52,145 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:19:52] "[35m[1mPOST /firstdownload/1024 HTTP/1.1[0m" 500 -
+2022-02-22 10:19:52,745 - E:\Research2\Anaconda3\lib\site-packages\flask\app.py[line:1761] - ERROR: Exception on /firstdownload/1024 [POST]
+Traceback (most recent call last):
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:\WORK\6study\git_study\learngit\http_svr.py", line 79, in firstdownload
+    if size == '1024':
+NameError: name 'size' is not defined
+2022-02-22 10:19:52,746 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:19:52] "[35m[1mPOST /firstdownload/1024 HTTP/1.1[0m" 500 -
+2022-02-22 10:19:53,181 - E:\Research2\Anaconda3\lib\site-packages\flask\app.py[line:1761] - ERROR: Exception on /firstdownload/1024 [POST]
+Traceback (most recent call last):
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:\WORK\6study\git_study\learngit\http_svr.py", line 79, in firstdownload
+    if size == '1024':
+NameError: name 'size' is not defined
+2022-02-22 10:19:53,182 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:19:53] "[35m[1mPOST /firstdownload/1024 HTTP/1.1[0m" 500 -
+2022-02-22 10:19:53,451 - E:\Research2\Anaconda3\lib\site-packages\flask\app.py[line:1761] - ERROR: Exception on /firstdownload/1024 [POST]
+Traceback (most recent call last):
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Research2\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "d:\WORK\6study\git_study\learngit\http_svr.py", line 79, in firstdownload
+    if size == '1024':
+NameError: name 'size' is not defined
+2022-02-22 10:19:53,452 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:19:53] "[35m[1mPOST /firstdownload/1024 HTTP/1.1[0m" 500 -
+2022-02-22 10:20:00,760 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-22 10:20:01,597 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:20:01] "POST /firstdownload/1024 HTTP/1.1" 200 -
+2022-02-22 10:20:02,255 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 10:20:02] "POST /firstdownload/1024 HTTP/1.1" 200 -
+2022-02-22 11:13:02,630 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

@@ -1,6 +1,7 @@
 from flask import Flask, request
 import random
 import os
+from numpy import size
 import serial
 import json
 from modbus_tk.modbus_rtu import *
@@ -9,6 +10,9 @@ import logging
 from concurrent.futures import ThreadPoolExecutor
 
 app = Flask(__name__)
+
+
+Gtimes = 0
 
 #随机生成TXT文件
 def generateTXTFile(type):
@@ -33,13 +37,43 @@ def generateTXTFile(type):
                 f.close()
                 exit(-1)
     f.close()
+
+#生成size大小且名为TXT文件
+def generateSizeTXTFile(type,size):
+    if int(type) == 0:
+        size = 1024
+        filename = 'firstTXT.txt'
+    else:
+        size = random.randint(0,150)
+        filename = 'TXT.txt'
+    logging.info(f'文件名：{filename}')
+    filepath = './file/'
+    f = open(filepath + filename, 'w')
+    for i in range(size):
+        if i >= 100:
+            if i % 100 == 0:
+                logging.info(f'已生成{i // 100 * 100}MB数据.')
+        for j in range(1024):
+            try:
+                f.write('01' * 512)
+            except KeyboardInterrupt:
+                logging.info('\n异常中断:KeyboardInterrupt')
+                f.close()
+                exit(-1)
+    f.close()
+
+
+
 #测试flask路由
 @app.route('/')
 def hello_world():
     return '!!!hello world!!!---'
-@app.route('/hello')
-def hello():
-    return 'hello！'
+@app.route('/hello/<id>',methods=['POST'])
+def hello(id):
+    if id == '1':
+        return 'hello！'
+    elif id == '2':
+        return 'World'
 #反馈校验测数
 @app.route('/verification', methods=['POST'])
 def verification():
@@ -57,10 +91,10 @@ def sendjson():
         SendJson = json.load(SendData)
     SendJsons = json.dumps(SendJson)
     return SendJsons
+
 #由客户端发送指令，随机给取文件 以及文件大小
-@app.route('/download', methods=['POST'])
+@app.route('/download/', methods=['POST'])
 def download():
-    #随机生成文件大小
     generateTXTFile(1)
     f = open('./file/text.txt','rb')
     tmp = f.read()
@@ -70,18 +104,30 @@ def download():
     return tmp
 
 #
-@app.route('/firstdownload', methods=['POST'])
-def firstdownload():
-    filepath = './file/1GB.txt'
+@app.route('/firstdownload/<id>', methods=['POST'])
+def firstdownload(id):
+    size = int(id)
+    filepath = './file/firstTXT.txt'
     if not os.path.exists(filepath):
-        generateTXTFile(0)
-    f = open('./file/1GB.txt','rb')
+        #生成size尺寸的文件
+        generateSizeTXTFile(0,size)
+    f = open('./file/firstTXT.txt','rb')
     tmp = f.read()
     f.close()
     return tmp
 
+@app.route('/times/<id>',methods=['GET'])
+def configurationtimes(id):
+    global Gtimes 
+    Gtimes = id
+    return 'success'
+
+
+
 
 def device_run():
+    global Gtimes
+    releas_p = 1
     def rtu_exec(slave, opcode, start_addr, **kwargs):
         com = serial.Serial()
         com.port = "/dev/ttyS6"
@@ -102,12 +148,17 @@ def device_run():
         except Exception as e:
             logging.info('caught exception:{}'.format(e))
 
-    while True:
-
+    while releas_p:
+        #还得改
         times = random.randint(10, 300)
         time.sleep(times)
         rtu_exec(1, cst.WRITE_SINGLE_REGISTER, 20492, output_value=1)
         time.sleep(20)
+        if Gtimes == 0:
+            releas_p = 0
+        Gtimes = Gtimes - 1
+
+
 
 
 if __name__ == '__main__':
