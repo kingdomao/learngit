@@ -3201,3 +3201,47 @@ The view function did not return a valid response. The return type must be a str
 2022-02-22 16:20:45,628 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 16:20:45] "[35m[1mPOST /verification HTTP/1.1[0m" 500 -
 2022-02-22 16:20:45,639 - d:\WORK\6study\git_study\learngit\http_svr.py[line:27] - INFO: ÎÄ¼þÃû£ºTXT.txt
 2022-02-22 16:20:45,757 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 16:20:45] "POST /download/10 HTTP/1.1" 200 -
+2022-02-22 20:06:23,774 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Restarting with stat
+2022-02-22 20:06:25,612 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - WARNING:  * Debugger is active!
+2022-02-22 20:06:25,631 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Debugger PIN: 112-794-765
+2022-02-22 20:06:26,632 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-02-22 20:06:26,633 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Running on http://192.168.50.98:6667/ (Press CTRL+C to quit)
+2022-02-22 20:09:37,976 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Restarting with stat
+2022-02-22 20:09:40,255 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - WARNING:  * Debugger is active!
+2022-02-22 20:09:40,266 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Debugger PIN: 112-794-765
+2022-02-22 20:09:41,291 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - WARNING:  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-02-22 20:09:41,292 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Running on http://192.168.50.98:6667/ (Press CTRL+C to quit)
+2022-02-22 20:09:57,088 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:09:57] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:09:58,539 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:09:58] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:09:59,420 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:09:59] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:11:07,498 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Detected change in 'D:\\WORK\\6study\\git_study\\learngit\\http_svr.py', reloading
+2022-02-22 20:11:15,235 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-22 20:11:24,137 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:11:24] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:11:25,690 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:11:25] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:11:26,344 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:11:26] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:11:29,783 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:11:29] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:11:30,537 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:11:30] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:11:59,496 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-22 20:12:01,248 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:12:01] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:12:02,062 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:12:02] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:12:39,153 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:12:39] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:12:39,944 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:12:39] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:15:12,915 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-22 20:15:32,542 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Restarting with stat
+2022-02-22 20:15:34,944 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - WARNING:  * Debugger is active!
+2022-02-22 20:15:34,962 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Debugger PIN: 112-794-765
+2022-02-22 20:15:35,087 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-22 20:15:55,379 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:15:55] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:15:56,403 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:15:56] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:15:57,053 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:15:57] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:15:57,474 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:15:57] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:16:31,134 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Restarting with stat
+2022-02-22 20:16:33,200 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - WARNING:  * Debugger is active!
+2022-02-22 20:16:33,219 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Debugger PIN: 112-794-765
+2022-02-22 20:16:33,504 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO:  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-22 20:16:41,297 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:16:41] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:17:11,122 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:17:11] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2022-02-22 20:18:27,099 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:18:27] "GET / HTTP/1.1" 200 -
+2022-02-22 20:27:08,559 - E:\Research2\Anaconda3\lib\site-packages\werkzeug\_internal.py[line:225] - INFO: 127.0.0.1 - - [22/Feb/2022 20:27:08] "GET / HTTP/1.1" 200 -
